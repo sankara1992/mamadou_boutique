@@ -4,7 +4,13 @@ body {
     background: olive;
 }
 #conteneur {
+    background-color: palegreen;
     width: 1000px;
     margin: 0 auto;
 }
+header {
+    background-color: orange;
+
+}
+
 
