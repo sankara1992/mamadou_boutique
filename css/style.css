@@ -1,0 +1,10 @@
+/* feuille de style boutique  */
+
+body {
+    background: olive;
+}
+#conteneur {
+    width: 1000px;
+    margin: 0 auto;
+}
+
