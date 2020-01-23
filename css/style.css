@@ -1,15 +1,101 @@
 /* feuille de style boutique  */
 
 body {
-    background: olive;
+    /* background: white; */
+    background: url(../img/fond.png);
+    
 }
 #conteneur {
-    background-color: palegreen;
+    /* background-color: palegreen; */
     width: 1000px;
     margin: 0 auto;
 }
-header {
-    background-color: orange;
+header{
+    width: 1000px;
+    height: 130px;
+    background: white;
+}
+header div{
+    /* float: left; */
+    display: inline-block;
+    width: 33%;
+}
+.panier{
+    float: right;
+    background-color: #33ccff;
+    color: aliceblue;
+    text-align: center;
+    height: 130px;
+}
+.aide{
+    display: inline-block;
+}
+nav{
+    background-color: #33ccff;
+    color: azure;
+    display: block;
+    float: left;
+    width: 1000px;
+    text-align: center;
+    line-height: 50px;
+}
+.paie {
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+.qui {
+    width: 500px;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+.service {
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+.zone1  {
+    float: left;
+}
+footer {
+    
+    height: 60px;
+    width: 1000px;
+    line-height: 60px;   
+}
+
+footer li {
+background: #33CCFF;
+display: inline;
+text-align: center;
+}
+
+footer ul {
+text-align: center;
+}
+
+.plan {
+    float: left;
+    width: 333px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 2px;
+}
+.coeur {
+
+    float: left;
+    width: 333px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 2px;
+}
+.plaisir {
+    float: left;
+    width: 333px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 2px;
 
 }
 
